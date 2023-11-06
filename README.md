@@ -1,5 +1,12 @@
-## User Story
+## Password Generator
 
+```
+This site enables a user to create a randomly generated password.
+The user can pick between 8-128 characters
+The user can determe whether or not they would like to include uppercase letters, lowercase letters, special symbols, and/or numbers.
+```
+
+## User Story
 ```
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
@@ -7,7 +14,6 @@ SO THAT I can create a strong password that provides greater security
 ```
 
 ## Acceptance Criteria
-
 ```
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
@@ -25,4 +31,12 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
-(.assets/images/screenshot.png)
+Deployed site: https://chrisnastro.github.io/password-generator/ 
+
+Github Repository: https://github.com/chrisnastro/password-generator 
+
+![Deployed website screenshot](assets/images/screenshot.png)
+
+## Credits
+This project includes code from the following sources:
+-[Cynthia Mory] (https://cynthiamory.github.io/security-keygen/)
